@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Finance Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Finance Tracker</h1>
+        <div class="salary-section">
+            <input type="number" id="salary-input" placeholder="Enter Salary">
+            <button id="set-salary-btn">Set Salary</button>
+            <h2 id="salary-display">Salary: $0.00</h2>
+        </div>
+        <h2 id="balance">Balance: $0.00</h2>
+        <form id="transaction-form">
+            <input type="text" id="desc" placeholder="Description" required>
+            <input type="number" id="amount" placeholder="Amount" required>
+            <select id="type"><option value="income">Income</option><option value="expense">Expense</option></select>
+            <button type="submit">Add</button>
+        </form>
+        <ul id="transactions"></ul>
+        <button id="summary-btn">Summary</button>
+        <button id="delete-btn">Delete All</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

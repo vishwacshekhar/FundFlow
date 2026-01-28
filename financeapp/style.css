@@ -1,0 +1,11 @@
+body { font-family: sans-serif; background: #f4f4f4; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; }
+.container { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); text-align: center; }
+form, button { margin-top: 10px; }
+input, select, button { padding: 8px; margin: 5px; }
+.salary-section { margin-bottom: 20px; }
+#transactions { list-style-type: none; padding: 0; text-align: left; }
+.income { color: green; }
+.expense { color: red; }
+#summary-btn { background: #007bff; color: white; }
+#delete-btn { background: #dc3545; color: white; }
+#set-salary-btn { background: #28a745; color: white; }
